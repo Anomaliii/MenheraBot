@@ -1,4 +1,3 @@
-# UserindoBot
 import threading
 
 from sqlalchemy import (
