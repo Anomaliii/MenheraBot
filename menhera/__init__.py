@@ -1,3 +1,5 @@
+"""Initial app framework"""
+
 import logging
 import os
 import sys
@@ -9,7 +11,7 @@ from dotenv import load_dotenv
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler("menhera-log.txt"),
+        logging.FileHandler("ubotindo-log.txt"),
         logging.StreamHandler(),
     ],
     level=logging.INFO,
