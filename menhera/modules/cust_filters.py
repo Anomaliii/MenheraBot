@@ -27,7 +27,7 @@ from menhera.modules.helper_funcs.string_handling import (
     markdown_to_html,
     split_quotes,
 )
-from ubotindo.modules.sql import cust_filters_sql as sql
+from menhera.modules.sql import cust_filters_sql as sql
 
 HANDLER_GROUP = 15
 

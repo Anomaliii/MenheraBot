@@ -68,7 +68,7 @@ An example `config.env` file could be:
 ```python
     API_KEY = "" # your bot Token from BotFather
     OWNER_ID = "1234567"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "userbotindo" # your telegram username
+    OWNER_USERNAME = "menhera" # your telegram username
     SQLALCHEMY_DATABASE_URI = "sqldbtype://username:pw@hostname:port/db_name"
     MONGO_DB_URI = "mongodb+srv://username:pwd@host.port.mongodb.net/db_name"
     MESSAGE_DUMP = "-100987654"  # needed to make sure 'save from' messages persist
