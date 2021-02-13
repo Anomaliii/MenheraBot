@@ -1,12 +1,12 @@
 # Menhera Chan
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/Menhera/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/MenheraBot/)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8bfae649db3742a883e0ac1008755db3)](https://www.codacy.com/gh/Anomaliii/menhera/dashboard?utm_source=github.com&utm_medium=referral&utm_content=Anomaliii/Menhera&utm_campaign=Badge_Grade)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Anomaliii/Menhera/pulls)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Anomaliii/Menhera/graphs/commit-activity)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8bfae649db3742a883e0ac1008755db3)](https://www.codacy.com/gh/Anomaliii/menhera/dashboard?utm_source=github.com&utm_medium=referral&utm_content=Anomaliii/MenheraBot&utm_campaign=Badge_Grade)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Anomaliii/MenheraBot/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Anomaliii/MenheraBot/graphs/commit-activity)
 ![logo](https://telegra.ph/file/f8783a9962758775dc8ec.jpg)
 
 A modular telegram Python bot running on python3 with sqlalchemy database.
@@ -14,7 +14,7 @@ A modular telegram Python bot running on python3 with sqlalchemy database.
 Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and
 simple to use. Note that this project uses a well-known Telegram-bot of its time @BanhammerMarie_bot from Paul Larson as its base.
 
-Can be found on telegram as [Menhera Chan](https://t.me/MengeraChwan_Bot).
+Can be found on telegram as [Menhera Chan](https://t.me/MenheraChwan_Bot).
 
 Join the [Group Support](https://t.me/ZeroBotSupport) if you just want to stay in the loop about new features or announcements.
 
@@ -56,7 +56,7 @@ This is because markdown parsing is done by iterating through a dict, which is o
 There are two possible ways of configuring your bot: a config.py file, or ENV variables.
 
 The preferred version is to use a `config.py` file, as it makes it easier to see all your settings together.
-This file should be placed in your `UserindoBot` folder, alongside the `__main__.py` file.
+This file should be placed in your `menhera` folder, alongside the `__main__.py` file.
 This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of
 your other settings.
 
