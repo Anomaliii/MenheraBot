@@ -10,9 +10,9 @@ if is_module_loaded(FILENAME):
     from telegram.ext import CommandHandler
     from telegram.utils.helpers import escape_markdown
 
-    from ubotindo import LOGGER, dispatcher
-    from ubotindo.modules.helper_funcs.chat_status import user_admin
-    from ubotindo.modules.no_sql import log_channel_db as db
+    from menhera import LOGGER, dispatcher
+    from menhera.modules.helper_funcs.chat_status import user_admin
+    from menhera.modules.no_sql import log_channel_db as db
 
     def loggable(func):
         @wraps(func)
